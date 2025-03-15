@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warriors of Steel - Homepage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            background-image: url('4640244.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #e0e0e0;
+        }
+
+        nav {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #d1d1d1;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .download-button {
+            background-color: #333;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .download-button:hover {
+            background-color: #555;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 80px 20px;
+            max-width: 800px;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3em;
+            color: #ffd700;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .hero-section p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 40px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        .features-section {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            margin: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .feature h3 {
+            color: #ffd700;
+            margin-bottom: 15px;
+        }
+
+        .feature p {
+            line-height: 1.6;
+        }
+
+        .feature img {
+            max-width: 80px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .team-logo {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .team-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        footer {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px 0;
+            text-align: center;
+            color: #d1d1d1;
+            margin-top: 50px; /* Add some space above the footer */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="download.html">Download</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-section">
+        <div class="team-logo">
+            <img src="Duo Hunters.png" alt="Duo Hunters Logo">
+        </div>
+        <h1>Warriors of Steel</h1>
+        <p>Unleash your inner warrior in the ultimate 2D fighting experience. Master powerful combos, battle legendary opponents, and forge your path to glory.</p>
+    </section>
+
+    <section class="features-section">
+        <div class="feature">
+            <img src="check.png" alt="Dynamic Combat Logo">
+            <h3>Dynamic Combat</h3>
+            <p>Engage in fast-paced, fluid combat with a wide array of moves and combos.</p>
+        </div>
+        <div class="feature">
+            <img src="swords.png" alt="Unique Characters Logo">
+            <h3>Unique Characters</h3>
+            <p>Choose from a diverse roster of warriors, each with their own fighting style and abilities.</p>
+        </div>
+        <div class="feature">
+            <img src="knight.png" alt="Stunning Visuals Logo">
+            <h3>Stunning Visuals</h3>
+            <p>Immerse yourself in beautifully crafted 2D environments and character designs.</p>
+        </div>
+        <div class="feature">
+            <img src="fire.png" alt="Engaging Story Logo">
+            <h3>Engaging Story</h3>
+            <p>Follow a captivating storyline and unlock the secrets of the Warriors of Steel.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; All rights reserved to DuoHunters</p>
+    </footer>
+</body>
+</html>
