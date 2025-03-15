@@ -153,7 +153,33 @@
             padding: 20px 0;
             text-align: center;
             color: #d1d1d1;
-            margin-top: 50px; /* Add some space above the footer */
+            margin-top: 50px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            nav ul {
+                display: block;
+                text-align: center;
+            }
+
+            nav li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .hero-section, .features-section {
+                padding: 40px 10px;
+            }
+
+            .feature {
+                width: 90%;
+                margin: 20px auto;
+            }
+
+            img {
+                max-width: 100%;
+            }
         }
     </style>
 </head>

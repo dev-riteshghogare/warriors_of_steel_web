@@ -106,9 +106,9 @@
             text-align: left;
             margin-top: 30px;
             padding: 20px;
-            background-color: rgba(0, 0, 0, 0.6); /* Slightly less opaque */
+            background-color: rgba(0, 0, 0, 0.6);
             border-radius: 8px;
-            width: 80%; /* Adjust width as needed */
+            width: 80%;
         }
 
         .steps-container h2 {
@@ -122,6 +122,39 @@
 
         .steps-container li {
             margin-bottom: 10px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            nav ul {
+                display: block;
+                text-align: center;
+            }
+
+            nav li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .game-container {
+                padding: 30px;
+                margin: 30px 10px;
+                width: 90%;
+            }
+
+            img {
+                max-width: 100%;
+            }
+
+            .steps-container {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .game-container {
+                padding: 20px;
+            }
         }
     </style>
 </head>
